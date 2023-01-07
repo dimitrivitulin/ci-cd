@@ -17,7 +17,7 @@ jobs:
         run: npm install --save-dev @commitlint/cli @commitlint/config-conventional 
         
       - name: Initialize commitlint
-        run: npm install husky — save-dev
+        run: npm install husky --save-dev
              npx husky install
              npx husky-init
 
